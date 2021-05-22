@@ -1,0 +1,54 @@
+html{
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+.bg-myblack{
+    background-color: #141313;
+}
+
+
+.logo-img{
+    width: 50px;
+    height: auto;
+    margin: 20px;
+}
+
+
+.texto-quienes-somos{
+    width: 100%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.linea-azul{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 2px;
+    background-color: #18a2c5;  
+}
+
+    
+.box-uno{
+    width: 300px;
+    height: 30px;
+    background-color: #18a2c5;  
+}
+
+.box-dos{
+    width: 300px;
+    height: 350px;
+}
+
+.texto-ordinario{
+    width: 100%;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fafafa;
+    padding: 10px;
+}
