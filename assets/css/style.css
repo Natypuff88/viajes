@@ -3,10 +3,31 @@ html{
     margin: 0;
 }
 
+
+@media(min-width: 0px) and (max-width:767px){
+    nav{
+        background-color: #18a2c5;
+    }
+}
+
+a:link, a:visited, a:active a:hover{
+    text-decoration: none !important;
+    list-style-type: none !important;
+}
+
+
 .bg-myblack{
     background-color: #141313;
 }
 
+.bg-blue{
+    background-color: #18a2c5;
+    height: 420px;
+}
+
+.bg-azul{
+    background-color: #18a2c5;
+}
 
 .logo-img{
     width: 50px;
@@ -60,4 +81,44 @@ html{
 
 .fas{
     color: #fafafa;
+}
+
+.img-card{
+    height: 180px;
+    width: auto;
+}
+
+.card-body h5{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fafafa;
+}
+
+.card-body p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fafafa;
+}
+
+.viajes-chile{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fafafa;
+    padding: 0;
+    margin: 0;
+}
+
+.icono{
+    font-size: 30px;
+    color: #fafafa;
+    margin-left: 10px;
+}
+
+@media(min-width: 0px) and (max-width:767px){
+    .quienes{
+       display: none;
+    }
 }
