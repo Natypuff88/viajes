@@ -14,31 +14,36 @@ html{
     margin: 20px;
 }
 
+.text-link{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fafafa;
+}
 
-.texto-quienes-somos{
+.texto-titulo{
     width: 100%;
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 30px;
 }
 
 .linea-azul{
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    height: 2px;
-    background-color: #18a2c5;  
+    width: 90%;
+    border: 1px solid #18a2c5;
 }
 
     
 .box-uno{
+    margin: auto;
     width: 300px;
     height: 30px;
     background-color: #18a2c5;  
 }
 
 .box-dos{
+    margin: auto;
     width: 300px;
     height: 350px;
 }
@@ -46,9 +51,13 @@ html{
 .texto-ordinario{
     width: 100%;
     text-align: left;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #fafafa;
     padding: 10px;
+}
+
+.fas{
+    color: #fafafa;
 }
